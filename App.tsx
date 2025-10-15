@@ -63,11 +63,6 @@ export default function App() {
   setUsers(users.filter(user => user.id !== id ))
  }
 
-
-
-
-
-
   return (
     
     <View style={styles.container}>
@@ -117,7 +112,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#e47c7cff",
     paddingTop: 50,
     paddingHorizontal: 20,
   },
@@ -131,13 +126,14 @@ const styles = StyleSheet.create({
   },
   input: {
     borderWidth: 1,
-    borderColor: "#555",
+    borderColor: "#ebe5e5ff",
     padding: 10,
     marginBottom: 10,
     borderRadius: 5,
+     color: "#f8f6f6ff",
   },
   item: {
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#b44848ff",
     padding: 15,
     marginVertical: 8,
     borderRadius: 8,
@@ -145,10 +141,11 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 18,
     fontWeight: "600",
+    
   },
   age: {
     fontSize: 14,
-    color: "#555",
+    color: "#f8f6f6ff",
   },
   color: {
     fontSize: 14,
