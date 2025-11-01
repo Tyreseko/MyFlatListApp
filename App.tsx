@@ -66,7 +66,7 @@ export default function App() {
   return (
     
     <View style={styles.container}>
-      <Text style={styles.title}>👋 My Dynamic FlatList</Text>
+      <Text style={styles.title}>FlatApp</Text>
 
       {/* Input fields */}
       <View style={styles.inputContainer}>
